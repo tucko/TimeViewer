@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="6c0f40066f2e406894594887cd77ec88" Name="Diagram1" >
+        <EntityTypeShape EntityType="Database.Person" Width="1.5" PointX="1" PointY="1.875" />
+        <EntityTypeShape EntityType="Database.Card" Width="1.5" PointX="5.625" PointY="2" />
+        <EntityTypeShape EntityType="Database.PersonCard" Width="1.5" PointX="3.25" PointY="0.75" />
+        <AssociationConnector Association="Database.PersonPersonCard" />
+        <AssociationConnector Association="Database.CardPersonCard" />
+        <EntityTypeShape EntityType="Database.Department" Width="2" PointX="0.625" PointY="6.125" />
+        <EntityTypeShape EntityType="Database.Company" Width="1.5" PointX="7.125" PointY="6" />
+        <EntityTypeShape EntityType="Database.DepartmentCompany" Width="1.5" PointX="3.875" PointY="6" />
+        <AssociationConnector Association="Database.DepartmentDepartmentCompany" />
+        <AssociationConnector Association="Database.CompanyDepartmentCompany" />
+        <EntityTypeShape EntityType="Database.PersonDepartment" Width="1.5" PointX="3.125" PointY="3.375" />
+        <AssociationConnector Association="Database.PersonPersonDepartment" />
+        <AssociationConnector Association="Database.DepartmentPersonDepartment" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
