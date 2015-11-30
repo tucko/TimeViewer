@@ -25,6 +25,24 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamViewer.Win.Core", "Team
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeViewer.Modules.Planning", "TimeViewer.Modules.Planning\TimeViewer.Modules.Planning.csproj", "{3C95E67C-0053-4623-8B48-A9F44EEC7F45}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "References", "References", "{137EB30E-E2EB-4AEA-B0D7-DC6393460668}"
+	ProjectSection(SolutionItems) = preProject
+		References\Janus.Data.v3.dll = References\Janus.Data.v3.dll
+		References\Janus.Windows.ButtonBar.v3.dll = References\Janus.Windows.ButtonBar.v3.dll
+		References\Janus.Windows.CalendarCombo.v3.dll = References\Janus.Windows.CalendarCombo.v3.dll
+		References\Janus.Windows.Common.v3.dll = References\Janus.Windows.Common.v3.dll
+		References\Janus.Windows.ExplorerBar.v3.dll = References\Janus.Windows.ExplorerBar.v3.dll
+		References\Janus.Windows.FilterEditor.v3.dll = References\Janus.Windows.FilterEditor.v3.dll
+		References\Janus.Windows.GridEX.v3.dll = References\Janus.Windows.GridEX.v3.dll
+		References\Janus.Windows.Ribbon.v3.dll = References\Janus.Windows.Ribbon.v3.dll
+		References\Janus.Windows.Schedule.v3.dll = References\Janus.Windows.Schedule.v3.dll
+		References\Janus.Windows.TimeLine.v3.dll = References\Janus.Windows.TimeLine.v3.dll
+		References\Janus.Windows.UI.v3.dll = References\Janus.Windows.UI.v3.dll
+		References\System.ComponentModel.Composition.Codeplex.dll = References\System.ComponentModel.Composition.Codeplex.dll
+		References\System.ComponentModel.Composition.Registration.dll = References\System.ComponentModel.Composition.Registration.dll
+		References\System.Reflection.Context.dll = References\System.Reflection.Context.dll
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
