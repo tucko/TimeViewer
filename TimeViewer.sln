@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{DC47
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{36C1E29D-BEFA-4D72-99A2-56810EA236FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeViever.Data.Entity", "TimeViever.Data\TimeViever.Data.Entity.csproj", "{F746C6EA-BD1D-4408-BAE9-02A7B68B214F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeViever.Data.Entity", "TimeViewer.Data.Entity\TimeViever.Data.Entity.csproj", "{F746C6EA-BD1D-4408-BAE9-02A7B68B214F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeViewer.Data", "TimeViewer.Data\TimeViewer.Data.csproj", "{5DEF5B96-ABF9-40F9-9223-D323F80A070F}"
 EndProject

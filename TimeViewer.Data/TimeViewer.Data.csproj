@@ -58,7 +58,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\TimeViever.Data\TimeViever.Data.Entity.csproj">
+    <ProjectReference Include="..\TimeViewer.Data.Entity\TimeViever.Data.Entity.csproj">
       <Project>{f746c6ea-bd1d-4408-bae9-02a7b68b214f}</Project>
       <Name>TimeViever.Data.Entity</Name>
     </ProjectReference>
